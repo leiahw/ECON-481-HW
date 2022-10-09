@@ -17,4 +17,6 @@ print("Bill's total wealth is $" + str(final_tot_wealth))
 
 # Question 2:
 years_to_double = math.log(2, 1 + ir)
-print("It takes " + str(years_to_double) + " years to double Bill's money.")
+years_to_double_rounded = round(years_to_double, 2)
+print("It takes " + str(years_to_double_rounded)
+      + " years to double Bill's money.")
