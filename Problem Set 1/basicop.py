@@ -35,3 +35,11 @@ if jack_tot_wealth >= 2*jack_acct:
     print("True")
 else:
     print("False")
+# Using the same formula as seen in Question 1 to calculate total wealth
+# with compounding interest, I added an if statement to determine if Jack's
+# total wealth would be doubled in 6 years and printed the boolean statement.
+
+# Question 4
+acct_list = ["Bill", 1000, "Jack", 5000, "Amy", 6700, "Cindy", 5699, "Harry",
+             6700]
+print(acct_list)
