@@ -20,3 +20,18 @@ years_to_double = math.log(2, 1 + ir)
 years_to_double_rounded = round(years_to_double, 2)
 print("It takes " + str(years_to_double_rounded)
       + " years to double Bill's money.")
+# I solve for the number of years to double Bill's money by inversing
+# the compounding interest equation (years to double = log_(1+ir)(2000/1000)).
+# I then used the same round() function to round the number of years to two
+# places
+
+# Question 3
+jack_acct = float(input('Jacks starting account value: '))
+ir_jack = float(input('Jacks interest rate: '))
+years_jack = 6
+n = 1
+jack_tot_wealth = jack_acct*((1+ir_jack/n)**(years*n))
+if jack_tot_wealth >= 2*jack_acct:
+    print("True")
+else:
+    print("False")
