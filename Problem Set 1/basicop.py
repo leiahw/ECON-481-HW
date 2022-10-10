@@ -47,7 +47,6 @@ print(acct_list)
 # around the names to indicate they are strings.
 
 # Question 5:
-
 Accounts = {}
 for i in range(len(acct_list)):
     if i % 2 == 0:
@@ -63,3 +62,11 @@ for item in Accounts.items():
 print(tuple_list)
 # For Question 6, I used .items() to iterate through Accounts and add each key,
 # value pair to a tuple. I then appended this to a list.
+
+# Question 7:
+# A list is defined using square brackets and conveys an ordered collection
+# and objects may be added to or removed from the list. A dictionary contains a
+# definitive set of (key: value) pairs and are indicated with curly braces.
+# A dictionary cannot have duplicate keys, but a key may have multiple values.
+# Sets are an unordered collection of items that can have no duplicate items.
+# Sets are indicated with curly braces, but an empty set is created with set().
