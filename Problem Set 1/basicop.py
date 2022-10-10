@@ -53,3 +53,9 @@ for i in range(len(acct_list)):
     if i % 2 == 0:
         Accounts[acct_list[i]] = acct_list[i+1]
 print(Accounts)
+# I used a for loop and an if statement to iterate through acct_list and detect
+# even and odd indexes in order to assign them as a key or value in Accounts
+
+# Question 6:
+items = Accounts.items()
+print(items)
