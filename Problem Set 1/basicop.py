@@ -25,7 +25,7 @@ print("It takes " + str(years_to_double_rounded)
 # I then used the same round() function to round the number of years to two
 # places
 
-# Question 3
+# Question 3:
 jack_acct = float(input('Jacks starting account value: '))
 ir_jack = float(input('Jacks interest rate: '))
 years_jack = 6
@@ -39,7 +39,17 @@ else:
 # with compounding interest, I added an if statement to determine if Jack's
 # total wealth would be doubled in 6 years and printed the boolean statement.
 
-# Question 4
+# Question 4:
 acct_list = ["Bill", 1000, "Jack", 5000, "Amy", 6700, "Cindy", 5699, "Harry",
              6700]
 print(acct_list)
+# I created a list using [] symbols to indicate a list. I also put quotations
+# around the names to indicate they are strings.
+
+# Question 5:
+
+acct_dict = {}
+for i in range(len(acct_list)):
+    if i % 2 == 0:
+        acct_dict[acct_list[i]] = acct_list[i+1]
+print(acct_dict)
