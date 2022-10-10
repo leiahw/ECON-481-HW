@@ -57,5 +57,9 @@ print(Accounts)
 # even and odd indexes in order to assign them as a key or value in Accounts
 
 # Question 6:
-items = Accounts.items()
-print(items)
+tuple_list = []
+for item in Accounts.items():
+    tuple_list.append(item)
+print(tuple_list)
+# For Question 6, I used .items() to iterate through Accounts and add each key,
+# value pair to a tuple. I then appended this to a list.
