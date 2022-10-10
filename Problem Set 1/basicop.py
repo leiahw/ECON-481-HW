@@ -48,8 +48,8 @@ print(acct_list)
 
 # Question 5:
 
-acct_dict = {}
+Accounts = {}
 for i in range(len(acct_list)):
     if i % 2 == 0:
-        acct_dict[acct_list[i]] = acct_list[i+1]
-print(acct_dict)
+        Accounts[acct_list[i]] = acct_list[i+1]
+print(Accounts)
